@@ -198,7 +198,7 @@
 		540C4237150B966100786C32 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 540C423A150B966100786C32 /* Build configuration list for PBXProject "cipad" */;
 			compatibilityVersion = "Xcode 3.2";
