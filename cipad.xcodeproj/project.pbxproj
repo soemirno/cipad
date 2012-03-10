@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540C4245150B966100786C32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C4244150B966100786C32 /* UIKit.framework */; };
+		540C4247150B966100786C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C4246150B966100786C32 /* Foundation.framework */; };
+		540C4249150B966100786C32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C4248150B966100786C32 /* CoreGraphics.framework */; };
+		540C424F150B966100786C32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 540C424D150B966100786C32 /* InfoPlist.strings */; };
+		540C4251150B966100786C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4250150B966100786C32 /* main.m */; };
+		540C4255150B966100786C32 /* NerdfeedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4254150B966100786C32 /* NerdfeedAppDelegate.m */; };
+		540C425D150B966100786C32 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C425C150B966100786C32 /* SenTestingKit.framework */; };
+		540C425E150B966100786C32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C4244150B966100786C32 /* UIKit.framework */; };
+		540C425F150B966100786C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C4246150B966100786C32 /* Foundation.framework */; };
+		540C4267150B966100786C32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 540C4265150B966100786C32 /* InfoPlist.strings */; };
+		540C426A150B966100786C32 /* cipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4269150B966100786C32 /* cipadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		540C4260150B966100786C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540C4237150B966100786C32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540C423F150B966100786C32;
+			remoteInfo = cipad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540C4240150B966100786C32 /* cipad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cipad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540C4244150B966100786C32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		540C4246150B966100786C32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		540C4248150B966100786C32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		540C424C150B966100786C32 /* cipad-Info.plist */ = {isa = PBXFileReference; path = "cipad-Info.plist"; sourceTree = "<group>"; };
+		540C424E150B966100786C32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		540C4250150B966100786C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		540C4252150B966100786C32 /* cipad-Prefix.pch */ = {isa = PBXFileReference; path = "cipad-Prefix.pch"; sourceTree = "<group>"; };
+		540C4253150B966100786C32 /* NerdfeedAppDelegate.h */ = {isa = PBXFileReference; path = NerdfeedAppDelegate.h; sourceTree = "<group>"; };
+		540C4254150B966100786C32 /* NerdfeedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdfeedAppDelegate.m; sourceTree = "<group>"; };
+		540C425B150B966100786C32 /* cipadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cipadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540C425C150B966100786C32 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		540C4264150B966100786C32 /* cipadTests-Info.plist */ = {isa = PBXFileReference; path = "cipadTests-Info.plist"; sourceTree = "<group>"; };
+		540C4266150B966100786C32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		540C4268150B966100786C32 /* cipadTests.h */ = {isa = PBXFileReference; path = cipadTests.h; sourceTree = "<group>"; };
+		540C4269150B966100786C32 /* cipadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cipadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540C423D150B966100786C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540C4245150B966100786C32 /* UIKit.framework in Frameworks */,
+				540C4247150B966100786C32 /* Foundation.framework in Frameworks */,
+				540C4249150B966100786C32 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540C4257150B966100786C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540C425D150B966100786C32 /* SenTestingKit.framework in Frameworks */,
+				540C425E150B966100786C32 /* UIKit.framework in Frameworks */,
+				540C425F150B966100786C32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540C4235150B966100786C32 = {
+			isa = PBXGroup;
+			children = (
+				540C424A150B966100786C32 /* cipad */,
+				540C4262150B966100786C32 /* cipadTests */,
+				540C4243150B966100786C32 /* Frameworks */,
+				540C4241150B966100786C32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540C4241150B966100786C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540C4240150B966100786C32 /* cipad.app */,
+				540C425B150B966100786C32 /* cipadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540C4243150B966100786C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				540C4244150B966100786C32 /* UIKit.framework */,
+				540C4246150B966100786C32 /* Foundation.framework */,
+				540C4248150B966100786C32 /* CoreGraphics.framework */,
+				540C425C150B966100786C32 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		540C424A150B966100786C32 /* cipad */ = {
+			isa = PBXGroup;
+			children = (
+				540C4253150B966100786C32 /* NerdfeedAppDelegate.h */,
+				540C4254150B966100786C32 /* NerdfeedAppDelegate.m */,
+				540C424B150B966100786C32 /* Supporting Files */,
+			);
+			path = cipad;
+			sourceTree = "<group>";
+		};
+		540C424B150B966100786C32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				540C424C150B966100786C32 /* cipad-Info.plist */,
+				540C424D150B966100786C32 /* InfoPlist.strings */,
+				540C4250150B966100786C32 /* main.m */,
+				540C4252150B966100786C32 /* cipad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		540C4262150B966100786C32 /* cipadTests */ = {
+			isa = PBXGroup;
+			children = (
+				540C4268150B966100786C32 /* cipadTests.h */,
+				540C4269150B966100786C32 /* cipadTests.m */,
+				540C4263150B966100786C32 /* Supporting Files */,
+			);
+			path = cipadTests;
+			sourceTree = "<group>";
+		};
+		540C4263150B966100786C32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				540C4264150B966100786C32 /* cipadTests-Info.plist */,
+				540C4265150B966100786C32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540C423F150B966100786C32 /* cipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540C426D150B966100786C32 /* Build configuration list for PBXNativeTarget "cipad" */;
+			buildPhases = (
+				540C423C150B966100786C32 /* Sources */,
+				540C423D150B966100786C32 /* Frameworks */,
+				540C423E150B966100786C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cipad;
+			productName = cipad;
+			productReference = 540C4240150B966100786C32 /* cipad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		540C425A150B966100786C32 /* cipadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540C4270150B966100786C32 /* Build configuration list for PBXNativeTarget "cipadTests" */;
+			buildPhases = (
+				540C4256150B966100786C32 /* Sources */,
+				540C4257150B966100786C32 /* Frameworks */,
+				540C4258150B966100786C32 /* Resources */,
+				540C4259150B966100786C32 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540C4261150B966100786C32 /* PBXTargetDependency */,
+			);
+			name = cipadTests;
+			productName = cipadTests;
+			productReference = 540C425B150B966100786C32 /* cipadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540C4237150B966100786C32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 540C423A150B966100786C32 /* Build configuration list for PBXProject "cipad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 540C4235150B966100786C32;
+			productRefGroup = 540C4241150B966100786C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540C423F150B966100786C32 /* cipad */,
+				540C425A150B966100786C32 /* cipadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540C423E150B966100786C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540C424F150B966100786C32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540C4258150B966100786C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540C4267150B966100786C32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		540C4259150B966100786C32 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540C423C150B966100786C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540C4251150B966100786C32 /* main.m in Sources */,
+				540C4255150B966100786C32 /* NerdfeedAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540C4256150B966100786C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540C426A150B966100786C32 /* cipadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540C4261150B966100786C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540C423F150B966100786C32 /* cipad */;
+			targetProxy = 540C4260150B966100786C32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		540C424D150B966100786C32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540C424E150B966100786C32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		540C4265150B966100786C32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540C4266150B966100786C32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		540C426B150B966100786C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		540C426C150B966100786C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		540C426E150B966100786C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cipad/cipad-Prefix.pch";
+				INFOPLIST_FILE = "cipad/cipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		540C426F150B966100786C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cipad/cipad-Prefix.pch";
+				INFOPLIST_FILE = "cipad/cipad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		540C4271150B966100786C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cipad.app/cipad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cipad/cipad-Prefix.pch";
+				INFOPLIST_FILE = "cipadTests/cipadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		540C4272150B966100786C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cipad.app/cipad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cipad/cipad-Prefix.pch";
+				INFOPLIST_FILE = "cipadTests/cipadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540C423A150B966100786C32 /* Build configuration list for PBXProject "cipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540C426B150B966100786C32 /* Debug */,
+				540C426C150B966100786C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540C426D150B966100786C32 /* Build configuration list for PBXNativeTarget "cipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540C426E150B966100786C32 /* Debug */,
+				540C426F150B966100786C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		540C4270150B966100786C32 /* Build configuration list for PBXNativeTarget "cipadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540C4271150B966100786C32 /* Debug */,
+				540C4272150B966100786C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540C4237150B966100786C32 /* Project object */;
+}
