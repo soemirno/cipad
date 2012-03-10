@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ListViewController : UITableViewController<NSURLConnectionDataDelegate>{
-    NSURLConnection *connection;
+@interface ListViewController : UITableViewController{
+
     NSMutableData *jsonData;
     NSArray *views;
 }

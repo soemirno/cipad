@@ -19,6 +19,7 @@
 		540C4267150B966100786C32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 540C4265150B966100786C32 /* InfoPlist.strings */; };
 		540C426A150B966100786C32 /* cipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4269150B966100786C32 /* cipadTests.m */; };
 		540C4275150B96D500786C32 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4274150B96D500786C32 /* ListViewController.m */; };
+		54E10EBD150BB2E100BF429F /* CiConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E10EBC150BB2E100BF429F /* CiConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		540C424E150B966100786C32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		540C4250150B966100786C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		540C4252150B966100786C32 /* cipad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cipad-Prefix.pch"; sourceTree = "<group>"; };
-		540C4253150B966100786C32 /* CiPadAppDelegate.h */ = {isa = PBXFileReference; path = CiPadAppDelegate.h; sourceTree = "<group>"; };
+		540C4253150B966100786C32 /* CiPadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CiPadAppDelegate.h; sourceTree = "<group>"; };
 		540C4254150B966100786C32 /* CiPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CiPadAppDelegate.m; sourceTree = "<group>"; };
 		540C425B150B966100786C32 /* cipadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cipadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540C425C150B966100786C32 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -50,6 +51,8 @@
 		540C4269150B966100786C32 /* cipadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cipadTests.m; sourceTree = "<group>"; };
 		540C4273150B96D500786C32 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		540C4274150B96D500786C32 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		54E10EBB150BB2E100BF429F /* CiConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CiConnection.h; sourceTree = "<group>"; };
+		54E10EBC150BB2E100BF429F /* CiConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CiConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				540C4253150B966100786C32 /* CiPadAppDelegate.h */,
 				540C4273150B96D500786C32 /* ListViewController.h */,
 				540C4274150B96D500786C32 /* ListViewController.m */,
+				54E10EBB150BB2E100BF429F /* CiConnection.h */,
+				54E10EBC150BB2E100BF429F /* CiConnection.m */,
 				540C4254150B966100786C32 /* CiPadAppDelegate.m */,
 				540C424B150B966100786C32 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 				540C4251150B966100786C32 /* main.m in Sources */,
 				540C4255150B966100786C32 /* CiPadAppDelegate.m in Sources */,
 				540C4275150B96D500786C32 /* ListViewController.m in Sources */,
+				54E10EBD150BB2E100BF429F /* CiConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +357,7 @@
 				GCC_PREFIX_HEADER = "cipad/cipad-Prefix.pch";
 				INFOPLIST_FILE = "cipad/cipad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -362,6 +369,7 @@
 				GCC_PREFIX_HEADER = "cipad/cipad-Prefix.pch";
 				INFOPLIST_FILE = "cipad/cipad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
