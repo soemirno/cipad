@@ -12,12 +12,13 @@
 		540C4249150B966100786C32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C4248150B966100786C32 /* CoreGraphics.framework */; };
 		540C424F150B966100786C32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 540C424D150B966100786C32 /* InfoPlist.strings */; };
 		540C4251150B966100786C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4250150B966100786C32 /* main.m */; };
-		540C4255150B966100786C32 /* NerdfeedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4254150B966100786C32 /* NerdfeedAppDelegate.m */; };
+		540C4255150B966100786C32 /* CiPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4254150B966100786C32 /* CiPadAppDelegate.m */; };
 		540C425D150B966100786C32 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C425C150B966100786C32 /* SenTestingKit.framework */; };
 		540C425E150B966100786C32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C4244150B966100786C32 /* UIKit.framework */; };
 		540C425F150B966100786C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540C4246150B966100786C32 /* Foundation.framework */; };
 		540C4267150B966100786C32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 540C4265150B966100786C32 /* InfoPlist.strings */; };
 		540C426A150B966100786C32 /* cipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4269150B966100786C32 /* cipadTests.m */; };
+		540C4275150B96D500786C32 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4274150B96D500786C32 /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +40,16 @@
 		540C424E150B966100786C32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		540C4250150B966100786C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		540C4252150B966100786C32 /* cipad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cipad-Prefix.pch"; sourceTree = "<group>"; };
-		540C4253150B966100786C32 /* NerdfeedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NerdfeedAppDelegate.h; sourceTree = "<group>"; };
-		540C4254150B966100786C32 /* NerdfeedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdfeedAppDelegate.m; sourceTree = "<group>"; };
+		540C4253150B966100786C32 /* CiPadAppDelegate.h */ = {isa = PBXFileReference; path = CiPadAppDelegate.h; sourceTree = "<group>"; };
+		540C4254150B966100786C32 /* CiPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CiPadAppDelegate.m; sourceTree = "<group>"; };
 		540C425B150B966100786C32 /* cipadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cipadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540C425C150B966100786C32 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		540C4264150B966100786C32 /* cipadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cipadTests-Info.plist"; sourceTree = "<group>"; };
 		540C4266150B966100786C32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		540C4268150B966100786C32 /* cipadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cipadTests.h; sourceTree = "<group>"; };
 		540C4269150B966100786C32 /* cipadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cipadTests.m; sourceTree = "<group>"; };
+		540C4273150B96D500786C32 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		540C4274150B96D500786C32 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +109,10 @@
 		540C424A150B966100786C32 /* cipad */ = {
 			isa = PBXGroup;
 			children = (
-				540C4253150B966100786C32 /* NerdfeedAppDelegate.h */,
-				540C4254150B966100786C32 /* NerdfeedAppDelegate.m */,
+				540C4253150B966100786C32 /* CiPadAppDelegate.h */,
+				540C4273150B96D500786C32 /* ListViewController.h */,
+				540C4274150B96D500786C32 /* ListViewController.m */,
+				540C4254150B966100786C32 /* CiPadAppDelegate.m */,
 				540C424B150B966100786C32 /* Supporting Files */,
 			);
 			path = cipad;
@@ -249,7 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				540C4251150B966100786C32 /* main.m in Sources */,
-				540C4255150B966100786C32 /* NerdfeedAppDelegate.m in Sources */,
+				540C4255150B966100786C32 /* CiPadAppDelegate.m in Sources */,
+				540C4275150B96D500786C32 /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +419,7 @@
 				540C426F150B966100786C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		540C4270150B966100786C32 /* Build configuration list for PBXNativeTarget "cipadTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +428,7 @@
 				540C4272150B966100786C32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

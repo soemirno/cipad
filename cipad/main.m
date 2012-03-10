@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "NerdfeedAppDelegate.h"
+#import "CiPadAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([NerdfeedAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CiPadAppDelegate class]));
     }
 }
