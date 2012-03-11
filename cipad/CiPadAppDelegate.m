@@ -23,8 +23,20 @@
     [lvc setWebViewController:wvc];
     UINavigationController *masterNav = [[UINavigationController alloc]initWithRootViewController:lvc];
     
-    self.window.rootViewController = masterNav;
-                                         
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad){
+        UINavigationController *detailNav = [[UINavigationController alloc]initWithRootViewController:wvc];
+        NSArray *vcs =[NSArray arrayWithObjects:masterNav, detailNav, nil];
+        
+        UISplitViewController *svc =[ [UISplitViewController alloc]init];
+        [svc setDelegate:wvc];
+        [svc setViewControllers:vcs];
+        
+        self.window.rootViewController = svc;
+        
+    } else {
+        self.window.rootViewController = masterNav;
+    }                                     
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

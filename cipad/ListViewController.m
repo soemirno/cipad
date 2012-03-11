@@ -119,31 +119,40 @@
     id cellClass = [UITableViewCell class];
     if (cell == nil)
         cell = [[cellClass alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuseIndentifier];
-
-//    [[cell contentView] setBackgroundColor:[UIColor redColor]];
     NSDictionary *view =[viewList objectAtIndex:[indexPath section]] ;
     NSArray *jobs =[jobsMap objectForKey:[view objectForKey:@"name"]];
     NSDictionary *job = [jobs objectAtIndex:[indexPath row]];
     [[cell textLabel]setText:[job objectForKey:@"name" ]];
-                
+    NSString *path = [[NSBundle mainBundle] pathForResource:[job objectForKey:@"color" ]ofType:@"png"];
+    [[cell imageView] setImage:[UIImage imageWithContentsOfFile:path]];
     return cell;
     
 
 }
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (![self splitViewController])
+        [[self navigationController] pushViewController:[self webViewController] animated:YES];
+    
+    
     NSDictionary *view =[viewList objectAtIndex:[indexPath section]] ;
     NSArray *jobs =[jobsMap objectForKey:[view objectForKey:@"name"]];
     NSDictionary *job = [jobs objectAtIndex:[indexPath row]];
     NSLog(@"selected %@", [job objectForKey:@"url"]);
     
-    [[self navigationController]pushViewController:[self webViewController] animated:YES];
-
+    
+ 
     NSURL *url = [NSURL URLWithString:[job objectForKey:@"url"]];
     NSURLRequest *request=[NSURLRequest requestWithURL:url];
     [[[self webViewController] webView]loadRequest:request];
     [[[self webViewController] navigationItem] setTitle:[job objectForKey:@"name"]];
     
+}
+
+- (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation{
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+        return YES;
+    return toInterfaceOrientation == UIInterfaceOrientationPortrait;
 }
 
 @end

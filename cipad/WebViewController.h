@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WebViewController : UIViewController
+@interface WebViewController : UIViewController<UISplitViewControllerDelegate>
 
 @property (nonatomic, readonly) UIWebView *webView;
 

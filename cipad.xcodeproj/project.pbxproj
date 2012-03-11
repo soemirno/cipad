@@ -22,6 +22,9 @@
 		54E10EBD150BB2E100BF429F /* CiConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E10EBC150BB2E100BF429F /* CiConnection.m */; };
 		54EF3EBC150BE870009F837D /* NSArray+Enumerating.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF3EBB150BE870009F837D /* NSArray+Enumerating.m */; };
 		54EF3EBF150C185E009F837D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF3EBE150C185E009F837D /* WebViewController.m */; };
+		54EF3EC1150CDD44009F837D /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EF3EC0150CDD44009F837D /* blue.png */; };
+		54EF3EC5150CDDC9009F837D /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EF3EC3150CDDC9009F837D /* yellow.png */; };
+		54EF3ECC150CEBD3009F837D /* aborted.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EF3ECB150CEBD3009F837D /* aborted.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		54EF3EBB150BE870009F837D /* NSArray+Enumerating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Enumerating.m"; sourceTree = "<group>"; };
 		54EF3EBD150C185E009F837D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		54EF3EBE150C185E009F837D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		54EF3EC0150CDD44009F837D /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		54EF3EC3150CDDC9009F837D /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		54EF3ECB150CEBD3009F837D /* aborted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aborted.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +127,12 @@
 				540C4253150B966100786C32 /* CiPadAppDelegate.h */,
 				540C4273150B96D500786C32 /* ListViewController.h */,
 				540C4274150B96D500786C32 /* ListViewController.m */,
+				54EF3ECB150CEBD3009F837D /* aborted.png */,
 				54EF3EBD150C185E009F837D /* WebViewController.h */,
 				54EF3EBE150C185E009F837D /* WebViewController.m */,
 				54E10EBB150BB2E100BF429F /* CiConnection.h */,
+				54EF3EC3150CDDC9009F837D /* yellow.png */,
+				54EF3EC0150CDD44009F837D /* blue.png */,
 				54E10EBC150BB2E100BF429F /* CiConnection.m */,
 				540C4254150B966100786C32 /* CiPadAppDelegate.m */,
 				540C424B150B966100786C32 /* Supporting Files */,
@@ -234,6 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				540C424F150B966100786C32 /* InfoPlist.strings in Resources */,
+				54EF3EC1150CDD44009F837D /* blue.png in Resources */,
+				54EF3EC5150CDDC9009F837D /* yellow.png in Resources */,
+				54EF3ECC150CEBD3009F837D /* aborted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
