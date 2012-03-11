@@ -6,13 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@class WebViewController;
 @interface ListViewController : UITableViewController{
 
     NSMutableData *jsonData;
-    NSArray *views;
-}
+    NSArray *viewList;
+    NSMutableDictionary *jobsMap;
 
+}
+@property (nonatomic, strong) NSString * urlString;
+@property (nonatomic, strong) WebViewController * webViewController;
+
+- (id) initWithURLString:(NSString *) urlString;
 - (void) fetchEntries;
 
 @end

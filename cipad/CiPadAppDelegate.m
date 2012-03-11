@@ -7,6 +7,7 @@
 
 #import "CiPadAppDelegate.h"
 #import "ListViewController.h"
+#import "WebViewController.h"
 @implementation CiPadAppDelegate
 
 @synthesize window = _window;
@@ -16,7 +17,10 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    ListViewController *lvc = [[ListViewController alloc]initWithStyle:UITableViewStylePlain];
+    ListViewController *lvc = [[ListViewController alloc]initWithURLString:@"https://ci.lille.inria.fr/pharo/api/json"];
+    
+    WebViewController *wvc = [[WebViewController alloc] init];
+    [lvc setWebViewController:wvc];
     UINavigationController *masterNav = [[UINavigationController alloc]initWithRootViewController:lvc];
     
     self.window.rootViewController = masterNav;

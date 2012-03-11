@@ -20,6 +20,8 @@
 		540C426A150B966100786C32 /* cipadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4269150B966100786C32 /* cipadTests.m */; };
 		540C4275150B96D500786C32 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540C4274150B96D500786C32 /* ListViewController.m */; };
 		54E10EBD150BB2E100BF429F /* CiConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E10EBC150BB2E100BF429F /* CiConnection.m */; };
+		54EF3EBC150BE870009F837D /* NSArray+Enumerating.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF3EBB150BE870009F837D /* NSArray+Enumerating.m */; };
+		54EF3EBF150C185E009F837D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EF3EBE150C185E009F837D /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		540C4274150B96D500786C32 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		54E10EBB150BB2E100BF429F /* CiConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CiConnection.h; sourceTree = "<group>"; };
 		54E10EBC150BB2E100BF429F /* CiConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CiConnection.m; sourceTree = "<group>"; };
+		54EF3EBA150BE870009F837D /* NSArray+Enumerating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enumerating.h"; sourceTree = "<group>"; };
+		54EF3EBB150BE870009F837D /* NSArray+Enumerating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Enumerating.m"; sourceTree = "<group>"; };
+		54EF3EBD150C185E009F837D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		54EF3EBE150C185E009F837D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +121,14 @@
 				540C4253150B966100786C32 /* CiPadAppDelegate.h */,
 				540C4273150B96D500786C32 /* ListViewController.h */,
 				540C4274150B96D500786C32 /* ListViewController.m */,
+				54EF3EBD150C185E009F837D /* WebViewController.h */,
+				54EF3EBE150C185E009F837D /* WebViewController.m */,
 				54E10EBB150BB2E100BF429F /* CiConnection.h */,
 				54E10EBC150BB2E100BF429F /* CiConnection.m */,
 				540C4254150B966100786C32 /* CiPadAppDelegate.m */,
 				540C424B150B966100786C32 /* Supporting Files */,
+				54EF3EBA150BE870009F837D /* NSArray+Enumerating.h */,
+				54EF3EBB150BE870009F837D /* NSArray+Enumerating.m */,
 			);
 			path = cipad;
 			sourceTree = "<group>";
@@ -262,6 +272,8 @@
 				540C4255150B966100786C32 /* CiPadAppDelegate.m in Sources */,
 				540C4275150B96D500786C32 /* ListViewController.m in Sources */,
 				54E10EBD150BB2E100BF429F /* CiConnection.m in Sources */,
+				54EF3EBC150BE870009F837D /* NSArray+Enumerating.m in Sources */,
+				54EF3EBF150C185E009F837D /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
